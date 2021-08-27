@@ -52,16 +52,15 @@ const styles = StyleSheet.create({
   },
   resultContainer: {
     marginHorizontal: 50,
-    marginVertical: 15
-
+    marginVertical: 15,
   },
   resultText: {
     textAlign: 'center',
-    fontSize: 20
+    fontSize: 20,
   },
   highlight: {
     color: Colors.primary,
-    fontFamily: 'open-sans-bold'
+    fontFamily: 'open-sans-bold',
   },
 });
 
