@@ -13,6 +13,7 @@ import BodyText from '../components/BodyText';
 import TitleText from '../components/TitleText';
 import MainButton from '../components/MainButton';
 import Colors from '../constants/colors';
+import { ScreenOrientation } from 'expo';
 
 const GameOverScreen = (props) => {
   return (
@@ -46,7 +47,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    paddingVertical: 10
+    paddingVertical: 10,
   },
   imageContainer: {
     width: Dimensions.get('window').width * 0.7,
